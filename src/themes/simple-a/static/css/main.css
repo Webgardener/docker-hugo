@@ -1341,6 +1341,7 @@ input::-moz-focus-inner {
   border: none;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  color: #fff;
 }
 .header-logo img {
   width: 200px;
