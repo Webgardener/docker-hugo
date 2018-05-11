@@ -1,5 +1,7 @@
-languageCode = "fr-fr"
-title = "Webgardener - intégration de logiciels libres"
-theme = "simple-a"
-disableKinds = ["RSS"]
-copyright = "webgardener"
+[params]
+  languageCode = "fr-fr"
+  title = "Webgardener - intégration de logiciels libres"
+  theme = "simple-a"
+  disableKinds = ["RSS"]
+  copyright = "webgardener"
+
