@@ -1,0 +1,5 @@
+languageCode = "fr-fr"
+title = "Webgardener - intégration de logiciels libres"
+theme = "transcend"
+disableKinds = ["RSS"]
+copyright = "webgardener"
