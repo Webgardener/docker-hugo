@@ -1,5 +1,5 @@
 languageCode = "fr-fr"
 title = "Webgardener - intégration de logiciels libres"
-theme = "transcend"
+theme = "simple-a"
 disableKinds = ["RSS"]
 copyright = "webgardener"
