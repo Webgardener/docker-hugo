@@ -1,31 +1,36 @@
-<head>
-
-    <!--- basic page needs
+    <!-- header
     ================================================== -->
-    <meta charset="utf-8">
-    <title>{{ .Title }}</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <header class="s-header">
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                {{ .Site.Params.title | safeHTML }} 
+            </a>
+        </div> <!-- end header-logo -->
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+        <nav class="header-nav">
 
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+            <div class="header-nav__content">
+                <h3>Webgardener</h3>
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
+    
+                <p></p>
+    
 
-</head>
+            </div> <!-- end header-nav__content -->
 
+        </nav> <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
