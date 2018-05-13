@@ -1,6 +1,7 @@
 [params]
   languageCode = "fr-fr"
-  title = "Webgardener - intégration de logiciels libres"
+  title: "Webgardener"
+  subtitle: "Intégration de Logiciels Libres"
   theme = "simple-a"
   disableKinds = ["RSS"]
   copyright = "webgardener"
